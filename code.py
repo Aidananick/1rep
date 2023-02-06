@@ -4,9 +4,11 @@ import math
 print("Hello world!")
 def title():
     print("Title")
-def kvf(a):
-    return math.pow(a, 2);
+def funksia(a):
+    return math.pow(a, 2)
 
-a=12
-res=kvf(a)
-print('a=', res)
+a = 12
+res=funksia(a)
+print('a= ',res)
+title()
+
